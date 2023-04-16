@@ -10,7 +10,7 @@ export const Home = () => {
       <div className="home" style={{ backgroundImage: `url(${Breakfast})` }}>
         <div className="headerContainer">
           <h1>Food Website</h1>
-          <p>Famous Gujrati Breakfast </p>
+          <p><i>Famous Gujrati Breakfast </i></p>
           <Link to="/menu">
             <button>ORDER NOW</button>
           </Link>
